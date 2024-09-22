@@ -1,0 +1,18 @@
+name: ClearLaggUI
+version: 1.0.0
+api: 5.0.0
+main: HipliAI\ClearLaggUI\Main
+author: HipliAI
+description: Un plugin ClearLagg avec interface utilisateur pour PocketMine 5
+depend: [FormAPI]
+
+commands:
+  clearlagg:
+    description: Ouvre l'interface de configuration du ClearLagg
+    usage: "/clearlagg"
+    permission: clearlagg.command
+
+permissions:
+  clearlagg.command:
+    default: op
+    description: Permet d'utiliser la commande /clearlagg
